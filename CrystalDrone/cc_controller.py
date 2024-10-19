@@ -8,6 +8,7 @@ HOST_NAME = '10.0.0.228'  # Listen on all interfaces
 PORT_NUMBER = 8080  # Ensure this matches the port the turtle sends requests to
 
 # Tkinter application to display turtle info and send commands
+# yes
 class TurtleControlApp:
     def __init__(self, master):
         self.master = master
